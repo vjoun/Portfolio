@@ -1,0 +1,278 @@
+/*  This website template was created by: Student's First Name Student's Kian zamani , 04.03.2021 */
+
+body {
+	background-color: #F3F0D7;
+}
+
+header img {
+	width: 20%;
+	float: left;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	font-family: Verdana, Arial, serif;
+	font-size: 2em;
+	margin-top: 0.2em;
+	background-color: #CEE5D0;
+	color: #810034;
+	border-radius: 0.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: #f0a500;
+	border-radius: 1em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: #b8b5ff;
+	text-decoration: none;
+}
+
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+	border-top: solid 0.2em #FF6600;
+	border-bottom: solid 0.2em #FF6600;
+}
+
+.reimg img{
+	width: 50%;
+	float: right;
+}
+.artimg img{
+	width: 40%;
+	float: left;
+	margin-right: 15px;
+}
+footer {
+	margin-top: 2em;
+	text-align: left;
+	font-family: Comic Sans MS, cursive, sans-serif;
+
+}
+.footy{
+	width: 3%;
+	float: none;
+	margin-left: 20px;
+}
+
+.mobile {
+	display: inline;
+}
+
+.desktop {
+	display: none;
+}
+
+div p {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+section {
+	padding: 1%;
+	text-align: center;
+}
+
+article {
+	padding: 2%;
+	margin: 0.5%;
+	text-align: left;
+
+}
+
+.pro a{
+	text-decoration: none;
+	display: block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.pro a:hover{
+	color: red;
+}
+/* Styles for tablet viewport */
+@media only screen and (min-width: 481px) {
+
+header p{
+	margin-bottom: 4em;
+	padding-top: 1.5em;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 23%;
+}
+
+main {
+	clear: left;
+	margin-top: 12em;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+section {
+	background-color: #bd9354;
+}
+
+article {
+	background-color: #FFBF90;
+	border-top: 0;
+	border-radius: 0 3em 3em 3em;
+	margin-bottom: 1em;
+}
+
+aside {
+	text-align:center;
+	color: #321f28;
+	background-color: #F7F6DC;
+	box-shadow: 0.5em 0.5em 0.5em #000000;
+	margin-right: 40px;
+}
+aside img{
+width: 80%;
+margin-bottom: 20px;
+}
+div.gallery {
+  width: 200px;
+	margin-top: 40px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+#container {
+	width: 80%;
+}
+
+nav {
+	margin-top: -5em;
+}
+
+nav ul {
+    margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	background-color: #FED2AA;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 18%;
+}
+
+nav li a {
+	color: #892cdc;
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.25em;
+}
+
+nav li a:link {
+	color: #FF6600;
+}
+
+nav li a:hover {
+	color: #4C1F00;
+	font-style: italic;
+}
+
+main {
+		border: none;
+		background-color:#E2C2B9;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+		overflow: auto;
+}
+
+section {
+	float: left;
+	width: 60%;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	background-color: #DAE2B6;
+	color: #212121;
+}
+div.gallery {
+  width: 200px;
+	margin-top: 30px;
+	margin-right: 40px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+
+}
+
+@media only screen and (min-width: 320px) {
+	div.gallery {
+	  width:25%;
+		margin-left: 30px;
+		float: right;
+
+	}
+
+	div.gallery:hover {
+	  border: 1px solid #777;
+	}
+
+
+}
